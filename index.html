@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minha página</title>
+    <link rel="icon" type="image/svg" href="assets/img/g.svg">
+    <link rel="stylesheet" href="gaintime/css/gaintime.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="assets/css/startup.css" media="screen" title="no title">
+  </head>
+  <body>
+    <header class="gt-top-menu xs-left fixed">
+      <a href=".">
+        <img src="assets/img/gaintime.svg" alt="" />
+      </a>
+      <label class="menu-toggle">
+        <svg viewBox="0 0 24 24">
+          <path fill="#333" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"></path>
+        </svg>
+      </label>
+      <nav>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home" class="banner first relative">
+      <div class="cover-box">
+        <div class="cover full-bg" style="background-image: url('assets/img/bg.jpg');"></div>
+        <div class="centerex overlay">
+          <div class="gt-section transparent">
+            <h1 class="no-margin">GainTime</h1>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed!</h2>
+            <a href="#contact">
+              <button class="btn lg" type="button" name="button">Fale com a gente</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div class="text-center">
+        <h1>Serviços</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+      </div>
+      <div class="row flex-box text-center justify-content-center">
+        <div class="sm-4 md-3">
+          <div class="service center">
+            <img src="assets/img/service_1.svg" alt="">
+          </div>
+          <h2>E-commerce</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="sm-4 md-3">
+          <div class="service center">
+            <img src="assets/img/service_2.svg" alt="">
+          </div>
+          <h2>Websites Responsivos</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="sm-4 md-3">
+          <div class="service center">
+            <img src="assets/img/service_3.svg" alt="">
+          </div>
+          <h2>Aplicativos mobile</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="text-center">
+      <div class="xs-4 border"></div>
+      <div class="off-xs-4 xs-4 border"></div>
+      <h1>Portfolio</h1>
+      <p class="medium center">
+        GThemes é uma coleção de temas e templates feitos com GainTime.
+      </p>
+      <div class="row flex-box">
+        <div class="card hoverable sm-4 md-3" data-modal="portfolio_1">
+          <div class="card-img">
+            <img src="assets/img/portfolio_1.jpg" alt="">
+          </div>
+          <div class="card-body text-center">
+            <h2>Portfolio 1</h2>
+            <p>Um tema OnePage para startups</p>
+            <div class="content-align">
+              <span class="tag pink">website</span>
+              <span class="tag warning">mobile</span>
+              <span class="tag success">responsive</span>
+            </div>
+          </div>
+        </div>
+        <div class="gt-modal">
+          <!-- Aqui você vai atribuir um id ao seu modal -->
+          <div id="portfolio_1" class="modal">
+          <!-- Este botão é responsável por fechar o modal -->
+            <button class="modal-close" type="button">×</button>
+            <div class="modal-body text-left">
+             <!-- Digite o conteúdo do modal aqui -->
+             <img class="full" src="assets/img/portfolio_1.jpg" alt="">
+             <div class="content-align">
+               <span class="tag pink">website</span>
+               <span class="tag warning">mobile</span>
+               <span class="tag success">responsive</span>
+             </div>
+             <h2>Portfolio 1</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card hoverable sm-4 md-3" data-modal="portfolio_2">
+          <div class="card-img">
+            <img src="assets/img/portfolio_2.jpg" alt="">
+          </div>
+          <div class="card-body text-center">
+            <h2>Portfolio 2</h2>
+            <p>Um tema OnePage para startups</p>
+            <div class="content-align">
+              <span class="tag pink">website</span>
+            </div>
+          </div>
+        </div>
+        <div class="gt-modal">
+          <!-- Aqui você vai atribuir um id ao seu modal -->
+          <div id="portfolio_2" class="modal">
+          <!-- Este botão é responsável por fechar o modal -->
+            <button class="modal-close" type="button">×</button>
+            <div class="modal-body text-left">
+             <!-- Digite o conteúdo do modal aqui -->
+             <img class="full" src="assets/img/portfolio_2.jpg" alt="">
+             <div class="content-align">
+               <span class="tag pink">website</span>
+             </div>
+             <h2>Portfolio 2</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card hoverable sm-4 md-3" data-modal="portfolio_3">
+          <div class="card-img">
+            <img src="assets/img/portfolio_3.jpg" alt="">
+          </div>
+          <div class="card-body text-center">
+            <h2>Portfolio 3</h2>
+            <p>Um tema OnePage para startups</p>
+            <div class="content-align">
+              <span class="tag pink">website</span>
+              <span class="tag warning">mobile</span>
+              <span class="tag success">responsive</span>
+            </div>
+          </div>
+        </div>
+        <div class="gt-modal">
+          <!-- Aqui você vai atribuir um id ao seu modal -->
+          <div id="portfolio_3" class="modal">
+          <!-- Este botão é responsável por fechar o modal -->
+            <button class="modal-close" type="button">×</button>
+            <div class="modal-body text-left">
+             <!-- Digite o conteúdo do modal aqui -->
+             <img class="full" src="assets/img/portfolio_3.jpg" alt="">
+             <div class="content-align">
+               <span class="tag pink">website</span>
+               <span class="tag warning">mobile</span>
+               <span class="tag success">responsive</span>
+             </div>
+             <h2>Portfolio 3</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card hoverable sm-4 md-3" data-modal="portfolio_4">
+          <div class="card-img">
+            <img src="assets/img/portfolio_4.jpg" alt="">
+          </div>
+          <div class="card-body text-center">
+            <h2>Portfolio 4</h2>
+            <p>Um tema OnePage para startups</p>
+            <div class="content-align">
+              <span class="tag pink">website</span>
+              <span class="tag warning">mobile</span>
+              <span class="tag success">responsive</span>
+            </div>
+          </div>
+        </div>
+        <div class="gt-modal">
+          <!-- Aqui você vai atribuir um id ao seu modal -->
+          <div id="portfolio_4" class="modal">
+          <!-- Este botão é responsável por fechar o modal -->
+            <button class="modal-close" type="button">×</button>
+            <div class="modal-body text-left">
+             <!-- Digite o conteúdo do modal aqui -->
+             <img class="full" src="assets/img/portfolio_4.jpg" alt="">
+             <div class="content-align">
+               <span class="tag pink">website</span>
+               <span class="tag warning">mobile</span>
+               <span class="tag success">responsive</span>
+             </div>
+             <h2>Portfolio 4</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card hoverable sm-4 md-3" data-modal="portfolio_5">
+          <div class="card-img">
+            <img src="assets/img/portfolio_5.jpg" alt="">
+          </div>
+          <div class="card-body text-center">
+            <h2>Portfolio 5</h2>
+            <h2>Portfolio 5</h2>
+            <div class="content-align">
+              <span class="tag pink">website</span>
+              <span class="tag warning">mobile</span>
+              <span class="tag success">responsive</span>
+            </div>
+          </div>
+        </div>
+        <div class="gt-modal">
+          <!-- Aqui você vai atribuir um id ao seu modal -->
+          <div id="portfolio_5" class="modal">
+          <!-- Este botão é responsável por fechar o modal -->
+            <button class="modal-close" type="button">×</button>
+            <div class="modal-body text-left">
+             <!-- Digite o conteúdo do modal aqui -->
+             <img class="full" src="assets/img/portfolio_5.jpg" alt="">
+             <div class="content-align">
+               <span class="tag pink">website</span>
+               <span class="tag warning">mobile</span>
+               <span class="tag success">responsive</span>
+             </div>
+             <p>Um tema OnePage para startups</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card hoverable sm-4 md-3" data-modal="portfolio_6">
+          <div class="card-img">
+            <img src="assets/img/portfolio_6.jpg" alt="">
+          </div>
+          <div class="card-body text-center">
+            <h2>Portfolio 6</h2>
+            <p>Um tema OnePage para startups</p>
+            <div class="content-align">
+              <span class="tag pink">website</span>
+              <span class="tag warning">mobile</span>
+              <span class="tag success">responsive</span>
+            </div>
+          </div>
+        </div>
+        <div class="gt-modal">
+          <!-- Aqui você vai atribuir um id ao seu modal -->
+          <div id="portfolio_6" class="modal">
+          <!-- Este botão é responsável por fechar o modal -->
+            <button class="modal-close" type="button">×</button>
+            <div class="modal-body text-left">
+             <!-- Digite o conteúdo do modal aqui -->
+             <img class="full" src="assets/img/portfolio_6.jpg" alt="">
+             <div class="content-align">
+               <span class="tag pink">website</span>
+               <span class="tag warning">mobile</span>
+               <span class="tag success">responsive</span>
+             </div>
+             <h2>Portfolio 6</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card hoverable sm-4 md-3" data-modal="portfolio_7">
+          <div class="card-img">
+            <img src="assets/img/portfolio_7.jpg" alt="">
+          </div>
+          <div class="card-body text-center">
+            <h2>Portfolio 7</h2>
+            <p>Um tema OnePage para startups</p>
+            <div class="content-align">
+              <span class="tag warning">mobile</span>
+            </div>
+          </div>
+        </div>
+        <div class="gt-modal">
+          <!-- Aqui você vai atribuir um id ao seu modal -->
+          <div id="portfolio_7" class="modal">
+          <!-- Este botão é responsável por fechar o modal -->
+            <button class="modal-close" type="button">×</button>
+            <div class="modal-body text-left">
+             <!-- Digite o conteúdo do modal aqui -->
+             <img class="full" src="assets/img/portfolio_7.jpg" alt="">
+             <div class="content-align">
+               <span class="tag warning">mobile</span>
+             </div>
+             <h2>Portfolio 7</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blue flex-box" id="contact">
+      <div class="col">
+        <h2>Sobre</h2>
+        <p class="medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="content-align no-margin center">
+          <img src="assets/img/fb.svg" alt="" class="social">
+          <img src="assets/img/instagram.svg" alt="" class="social">
+          <img src="assets/img/in.svg" alt="" class="social">
+        </div>
+        <p>myemailcontact@email.com</p>
+        <p>+55 (77) 7777-7777</p>
+      </div>
+      <div class="col">
+        <h2>Contato</h2>
+        <form class="gt-form medium" action="." method="post">
+          <input type="text" name="name" value="" placeholder="Seu nome">
+          <input type="text" name="email" value="" placeholder="Seu e-mail">
+          <textarea name="body" rows="4" cols="80" placeholder="Sua mensagem"></textarea>
+          <button type="submit" name="button" class="btn success full">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <footer class="dark-blue text-center">
+      <p class="no-margin">GainTime 2018</p>
+    </footer>
+    <script type="text/javascript" src="gaintime/js/gaintime.min.js"></script>
+  </body>
+</html>
